@@ -1,16 +1,16 @@
 # Blockchain with Python
 
 
-This Python/AWS application is to build a blockchain-based ledger system, complete with a user-friendly web interface. This ledger should allow partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
+This Python/steamlit application is to build a blockchain-based ledger system, complete with a user-friendly web interface. This ledger allows partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
 
-The application works by building basic PyChain ledger structure:
+The application works by building basic PyChain ledger structure and Create additional user input areas in the Streamlit application collecting the relevant information for each financial record that you’ll store in the PyChain ledger.
  
 
  
 ---
 
 ## Technologies
-This project leverages python 3.7 +, pandas, AWS
+This project leverages python 3.7 +, pandas, streamlit
 
 
 ---
@@ -30,36 +30,33 @@ You would also need to sign up free tire account with AWS with most services fir
 
 ## Usage
 
-Step 1: Configure the Initial Robo Advisor 
+Step 1: Create a Record Data Class
 
-<img width="1064" alt="image" src="https://user-images.githubusercontent.com/99616004/179402968-d47b5604-b040-4d05-b42a-b71d2946dc13.png">
-
-<img width="866" alt="image" src="https://user-images.githubusercontent.com/99616004/179403011-617ee100-763e-476e-aa5f-d3fc8bd9f89e.png">
-
-Step 2: Build and Test the Robo Advisor 
-
-Please refer to Video_1 from the repository
-
-<img width="322" alt="image" src="https://user-images.githubusercontent.com/99616004/179403252-1084c72a-4f91-459e-a1a7-60f11b564d7d.png">
-
-Step 3:  Enhance the Robo Advisor with an Amazon Lambda Function
+<img width="768" alt="image" src="https://user-images.githubusercontent.com/99616004/180671589-eeaa0b53-1100-44db-aaad-5a1a73f755ec.png">
 
 
-<img width="1386" alt="image" src="https://user-images.githubusercontent.com/99616004/179403180-bfc95d27-a4bb-439c-a4ea-e471caf0e125.png">
 
-<img width="648" alt="image" src="https://user-images.githubusercontent.com/99616004/179403443-4d072002-0a57-48e8-8c53-18f5d6b97516.png">
+Step 2: Modify the Existing Block Data Class to Store Record Data
 
-<img width="652" alt="image" src="https://user-images.githubusercontent.com/99616004/179403487-dc2c3ce1-ad83-4a78-8359-4118a9d16654.png">
 
-Please refer to Video_2 from the repository
 
-<img width="322" alt="image" src="https://user-images.githubusercontent.com/99616004/179403252-1084c72a-4f91-459e-a1a7-60f11b564d7d.png">
+<img width="867" alt="image" src="https://user-images.githubusercontent.com/99616004/180671617-7383e933-4757-4f9f-993f-f8d4f7044964.png">
+
+Step 3:  Add Relevant User Inputs to the Streamlit Interface
+
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/99616004/180671653-1cf329b7-08db-419a-941b-19d291189d16.png">
+
+Step 4:  Test the PyChain Ledger by Storing Records
+
+Please refer to Video_demo from the repository
+
+
 
 
 
 Conclution: 
 
-AWS lambda function could be a bit challenging to build initially, but once its up and running, it helps engine 24 hr running robo-advisor which is pretty powerful
+Python and Streamlit prove to be simple yet powerful tool to build simple blockchain ledge which can be used to transfer money and record traction details accurately on the block chain and can be verified. 
 
 
 
